@@ -13,6 +13,7 @@ import javax.ws.rs.Produces;
 @Path("/prime")
 public class PrimeNumberChecker {
 
+    //Tracker variable
     private long highestPrimeNumberSoFar = 2;
 
     @GET
